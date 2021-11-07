@@ -1,38 +1,93 @@
+/* Calculator App CSS */
 .App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+}
+.calc-wrapper {
+  width: 400px;
+  height: 560px;
+  box-shadow: 5px 5px 25px -5px rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+  overflow: auto;
+}
+.row {
+  display: flex;
+  width: 100%;
+}
+.button {
+  display: flex;
+  height: 4em;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 1.4em;
+  background-color: #e0e1e6;
+  color: rgb(15, 3, 3);
+  outline: 1px solid #888;
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+  border-radius: 50% im !important;
+}
+.button:hover {
+  color: #16a085 !important;
+  background: white !important;
+}
+.operator {
+  background-color: #fe9241;
+  color: #fff;
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+  border-radius: 50% im !important;
+}
+.operator:hover {
+  color: #fe9241 !important;
+  background: white !important;
+}
+.input {
+  display: flex;
+  height: 4em;
+  flex: 1;
+  background-color: #000;
+  outline: 1px solid #888;
+  color: #fff;
+  justify-content: flex-end;
+  padding: 0.5em;
+  font-weight: bold;
+  font-size: 1.4em;
+  align-items: center;
+}
+
+/*  Currency App  */
+
+/* .currencyApp {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1 {
+  margin: 0;
+  margin-bottom: 0.5rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.inputCurrency {
+  border: 1px solid #333;
+  border-radius: 0.3em;
+  padding: 0.25rem;
+  width: 7em;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+select {
+  margin-left: 0.5rem;
 }
 
-.App-link {
-  color: #61dafb;
+.equal {
+  font-weight: bold;
+  font-size: 2rem;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+ */
+/* ..................................................... */
